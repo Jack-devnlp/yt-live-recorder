@@ -1,0 +1,16 @@
+# YouTube Live Recorder Configuration Example
+# Place your configuration in a file like config.yaml and run:
+#   yt-recorder --monitor -c config.yaml
+
+channels:
+  - name: "PewDiePie"
+    channel_id: "UC-lHJZR3Gqxm24_Vd_AJ5Yw"
+  - name: "MrBeast"
+    channel_id: "UCX6OQ3DkcsbYNE6H8uQQuVA"
+  # Add up to 5 channels
+  # - name: "Your Favorite Streamer"
+  #   channel_id: "UCxxxxxxxxxxxxxxxxxxx"
+
+settings:
+  output_dir: "./recordings"
+  quality: "best"  # Options: best, 1080p, 720p, 480p, 360p
