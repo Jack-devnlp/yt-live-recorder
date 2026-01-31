@@ -66,10 +66,10 @@ Create a configuration file (see `config/example.yaml`):
 
 ```yaml
 channels:
-  - name: "PewDiePie"
-    channel_id: "UC-lHJZR3Gqxm24_Vd_AJ5Yw"
-  - name: "MrBeast"
-    channel_id: "UCX6OQ3DkcsbYNE6H8uQQuVA"
+  - name: "Streamer1"
+    channel_id: "UCxxxxxxxxxxxxxxxxxxx1"
+  - name: "Streamer2"
+    channel_id: "UCxxxxxxxxxxxxxxxxxxx2"
 
 settings:
   output_dir: "./recordings"
@@ -115,8 +115,8 @@ Recordings are saved with the following naming convention:
 ```
 
 Examples:
-- `PewDiePie_20250131_143022.mp4`
-- `MrBeast_20250131_160145.mp4`
+- `Streamer1_20250131_143022.mp4`
+- `Streamer2_20250131_160145.mp4`
 
 ## Project Structure
 

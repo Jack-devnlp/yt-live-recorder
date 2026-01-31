@@ -3,13 +3,13 @@
 #   yt-recorder --monitor -c config.yaml
 
 channels:
-  - name: "PewDiePie"
-    channel_id: "UC-lHJZR3Gqxm24_Vd_AJ5Yw"
-  - name: "MrBeast"
-    channel_id: "UCX6OQ3DkcsbYNE6H8uQQuVA"
+  - name: "Streamer1"
+    channel_id: "UCxxxxxxxxxxxxxxxxxxx1"
+  - name: "Streamer2"
+    channel_id: "UCxxxxxxxxxxxxxxxxxxx2"
   # Add up to 5 channels
   # - name: "Your Favorite Streamer"
-  #   channel_id: "UCxxxxxxxxxxxxxxxxxxx"
+  #   channel_id: "UCxxxxxxxxxxxxxxxxxxx3"
 
 settings:
   output_dir: "./recordings"
